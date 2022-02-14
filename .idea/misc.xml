@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android native projects/native/app/src/main/res/layout/activity_main.xml" value="0.25317028985507245" />
+        <entry key="..\:/Android native projects/native/app/src/main/res/layout/activity_nfc.xml" value="0.24909420289855072" />
+        <entry key="..\:/Android native projects/native/app/src/main/res/layout/activity_nfc_card_reader.xml" value="0.152" />
+        <entry key="..\:/Android native projects/native/app/src/main/res/layout/activity_nfcscan.xml" value="0.24909420289855072" />
+        <entry key="..\:/Android native projects/native/app/src/main/res/layout/country_item.xml" value="0.13020833333333334" />
+        <entry key="..\:/Android native projects/native/app/src/main/res/layout/fragment_cam_scanner.xml" value="0.152" />
+        <entry key="..\:/Android native projects/native/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Android native projects/native/app/src/main/res/layout/fragment_nfc.xml" value="0.264" />
+        <entry key="..\:/Android native projects/native/app/src/main/res/layout/fragment_result.xml" value="0.25317028985507245" />
+        <entry key="..\:/Android native projects/native/app/src/main/res/layout/list_group.xml" value="0.25317028985507245" />
+        <entry key="..\:/Android native projects/native/app/src/main/res/layout/nfc_cardread.xml" value="0.24909420289855072" />
+        <entry key="..\:/Android native projects/native/app/src/main/res/mipmap-anydpi-v26/ic_nfc_round.xml" value="0.24074074074074073" />
+        <entry key="..\:/Android native projects/native/app/src/main/res/xml/nfc_tech_filter.xml" value="0.25317028985507245" />
+        <entry key="..\:/AndroidStudioProjects/SampleProjectForRecruitment/app/src/main/res/drawable/border_bottom.xml" value="0.23425925925925925" />
+        <entry key="..\:/AndroidStudioProjects/SampleProjectForRecruitment/app/src/main/res/drawable/ic_arrow_back.xml" value="0.159375" />
+        <entry key="..\:/AndroidStudioProjects/SampleProjectForRecruitment/app/src/main/res/drawable/ic_clear.xml" value="0.159375" />
+        <entry key="..\:/AndroidStudioProjects/SampleProjectForRecruitment/app/src/main/res/drawable/ic_search.xml" value="0.23425925925925925" />
+        <entry key="..\:/AndroidStudioProjects/SampleProjectForRecruitment/app/src/main/res/layout/activity_main.xml" value="0.2734375" />
+        <entry key="..\:/AndroidStudioProjects/SampleProjectForRecruitment/app/src/main/res/layout/country_item.xml" value="0.2734375" />
+        <entry key="..\:/AndroidStudioProjects/SampleProjectForRecruitment/app/src/main/res/layout/fragment_country_detail.xml" value="0.17" />
+        <entry key="..\:/AndroidStudioProjects/SampleProjectForRecruitment/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects/native/app/src/main/res/layout/fragment_cam_scanner.xml" value="0.2734375" />
+        <entry key="..\:/AndroidStudioProjects/native/app/src/main/res/layout/fragment_home.xml" value="0.2734375" />
+        <entry key="..\:/AndroidStudioProjects/native/app/src/main/res/layout/fragment_result.xml" value="0.2734375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

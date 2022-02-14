@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.Native">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" /> <!-- camera -->
+    <uses-permission android:name="android.permission.CAMERA" /> <!-- nfc -->
+    <uses-permission android:name="android.permission.NFC" />
+
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required="true" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@drawable/icon_covid"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon_covid"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SampleProjectForRecruitment"
+        tools:ignore="AllowBackup">
+        <activity
+            android:name=".views.activities.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <!-- nfc -->
+            <meta-data
+                android:name="android.nfc.action.TECH_DISCOVERED"
+                android:resource="@xml/nfc_tech_filter" />
+        </activity>
+        <activity
+            android:name=".views.activities.nfc.NFCscanActivity"
+            android:screenOrientation="fullSensor"
+            android:exported="true">
+            <intent-filter>
+                <!-- nfc -->
+                <action android:name="android.nfc.action.TECH_DISCOVERED" />
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+
+        </activity>
+    </application>
+
+</manifest>
