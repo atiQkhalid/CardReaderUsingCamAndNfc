@@ -37,8 +37,6 @@ class ScannerResultFragment : BaseFragment() {
         val expiry = arguments?.getString(EXPIRY)
         val cvc = arguments?.getString(CVC)
 
-
-
         showToastMsg("cardNumber is $cardNumber, expiry date is $expiry and cvc is $cvc")
 
         binding.tvCardNumber.text = cardNumber
